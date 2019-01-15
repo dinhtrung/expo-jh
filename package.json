@@ -1,4 +1,9 @@
 {
+  "name": "jh-expo",
+  "version": "1.0.0",
+  "description": "nguyendinhtrung141/jh-expo",
+  "author": "nguyendinhtrung141@gmail.com",
+  "private": true,
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -9,10 +14,15 @@
   "dependencies": {
     "expo": "^32.0.0",
     "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "@callstack/react-theme-provider": "^1.0.7",
+    "create-react-context": "^0.2.3",
+    "prop-types": "^15.0.0",
+    "react-lifecycles-compat": "^3.0.4",
+    "react-native-paper": "2.4.0",
+    "react-navigation": "^2.18.2"
   },
   "devDependencies": {
     "babel-preset-expo": "^5.0.0"
-  },
-  "private": true
+  }
 }
